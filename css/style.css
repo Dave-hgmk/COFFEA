@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebe7df;
+    font-family: Arial, sans-serif;
+    color: #30241d;
+}
+
+.hero {
+    height: 100vh;
+    min-height: 700px;
+    padding: 35px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    min-width: 300px;
+}
+.logo span {
+    font-size: 58px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.logo p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+    padding-top: 12px;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    color: #FFEFD5;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 19px;
+    transition: 0.3s;
+    background-color: #30241d;
+}
+
+.content {
+    position: absolute;
+    left: 40px;
+    top: 185px;
+    bottom: 165px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 35px;
+}
+
+.description h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 540px;
+}
+
+.opening-hours {
+    font-size: 19px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.opening-hours h2 {
+    font-size: 20px;
+}
+
+.visual {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 44%;
+    height: 100%;
+    border-radius: 150px 0 100px 0;
+    overflow: hidden;
+}
+
+.visual img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.daily-offer {
+    position: absolute;
+    right: 35px;
+    top: 42%;
+    background: rgba(235, 231, 223, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.daily-offer h2 {
+    margin-bottom: 15px;
+}
+
+.coffee-info {
+    position: absolute;
+    right: 25px;
+    bottom: 20%;
+    background: rgba(235, 231, 223, 0.8);
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 2.5;
+}
+.navigation a[href="#menu"] {
+    background-color: #59402f;
+    padding: 12px 20px;
+    color: #ffffff;
+    border: 1px solid #59402f;
+    border-radius: 28px;
+}
+.navigation a[href="#offers"] {
+    background-color: #59402f;
+    padding: 12px 20px;
+    color: #ffffff;
+    border: 1px solid #59402f;
+    border-radius: 28px;
+}
+.navigation a[href="#locations"] {
+    background-color: #59402f;
+    padding: 12px 20px;
+    color: #ffffff;
+    border: 1px solid #59402f;
+    border-radius: 28px;
+}
+.navigation a[href="#about"] {
+    background-color: #59402f;
+    padding: 12px 20px;
+    color: #ffffff;
+    border: 1px solid #59402f;
+    border-radius: 28px;
+}
+.navigation a[href="#contacts"] {
+    background-color: #59402f;
+    padding: 12px 20px;
+    color: #ffffff;
+    border: 1px solid #59402f;
+    border-radius: 28px;
+}
+.menu-page {
+    min-height: 100vh;
+    padding: 35px 40px;
+    background-color: #ebe7df;
+}
+
+.menu-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.menu-content h1 {
+    font-family: Georgia, serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.menu-content p {
+    font-size: 18px;
+}
+.navigation a.active {
+    background-color: #59402f;
+    color: #ffffff;
+    border: 1px solid #59402f;
+}.menu-page .header {
+    gap: 30px;
+}
+.offers-page {
+    margin-top: 15px;
+    padding: 35px 40px;
+    color: #30241d;
+    background-color: #ebe7df;
+}
+.offers-item {
+    display: flex;
+    gap: 75px;
+    padding: 50px 50px;
+    color: #30241d;
+    background-color: #DEB887;
+}
+.about-content {
+    display: block;
+    padding: 95px 110px;
+    margin-top: 140px;
+    background-color: #DEB887;
+    color: #30241d;
+}

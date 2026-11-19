@@ -196,10 +196,11 @@ body {
     color: #ffffff;
     border: 1px solid #59402f;
 }.menu-page .header {
+    margin-top: 5px;
     gap: 30px;
 }
 .offers-page {
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 35px 40px;
     color: #30241d;
     background-color: #ebe7df;
@@ -217,4 +218,5 @@ body {
     margin-top: 140px;
     background-color: #DEB887;
     color: #30241d;
+    border-radius: 15px;
 }

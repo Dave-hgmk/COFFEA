@@ -196,11 +196,12 @@ body {
     color: #ffffff;
     border: 1px solid #59402f;
 }.menu-page .header {
-    margin-top: 5px;
+    margin-top: 0px;
     gap: 30px;
 }
 .offers-page {
-    margin-top: 5px;
+    margin-top: 0px;
+    min-height: 100vh;
     padding: 35px 40px;
     color: #30241d;
     background-color: #ebe7df;
@@ -211,6 +212,7 @@ body {
     padding: 50px 50px;
     color: #30241d;
     background-color: #DEB887;
+    border-radius: 30px;
 }
 .about-content {
     display: block;
